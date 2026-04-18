@@ -57,6 +57,15 @@ function App() {
           />
         ))}
       </div>
+
+      <a
+        className="github-profile-btn"
+        href="https://github.com/valnorena"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Visit my GitHub profile
+      </a>
     </div>
   )
 }

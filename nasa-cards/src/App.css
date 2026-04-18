@@ -75,12 +75,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.2s; /* Smooth hover effect */
   gap: 10px;
-}
-
-.card:hover {
-  transform: translateY(-5px); /* Makes the card 'lift' when hovered */
 }
 
 /* 7. Format the mission images */
@@ -117,4 +112,30 @@ button:active {
 .btn-liked {
   background-color: #0032a0; /* A striking NASA-inspired blue */
   color: white;
+}
+
+.btn-unliked:hover,
+.btn-liked:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.github-profile-btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 22px;
+  background-color: #ffffff;
+  color: #0b3d91;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
+  transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.github-profile-btn:hover {
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.28);
+}
+
+.github-profile-btn:active {
+  transform: scale(0.98);
 }

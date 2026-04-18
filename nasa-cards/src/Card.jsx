@@ -16,7 +16,7 @@ function Card({ nombre, imagen, descripcion }) {
         className={liked ? "btn-liked" : "btn-unliked"} 
         onClick={() => setLiked(!liked)}
       >
-        {liked ? '🚀 Liked!' : '🤍 Like'}
+        {liked ? '🚀 Liked!' : 'Like'}
       </button>
     </div>
   )
