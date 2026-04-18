@@ -30,6 +30,30 @@ html, body {
   margin-bottom: 30px; /* This pushes the grid down away from the text */
 }
 
+/* 5. Pagination controls above the card grid */
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.pagination-info {
+  font-weight: 600;
+}
+
+.pagination-btn {
+  background-color: #ffffff;
+  color: #0b3d91;
+  min-width: 96px;
+}
+
+.pagination-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 /* 5. Create a responsive grid for the cards */
 .cards-grid {
   display: grid;
